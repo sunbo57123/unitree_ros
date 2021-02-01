@@ -22,13 +22,11 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
     ${EIGEN3_INCLUDE_DIR}
     $ENV{UNITREE_LEGGED_SDK_PATH}/include
-    $ENV{ALIENGO_SDK_PATH}/include
 )
 
 link_directories($ENV{UNITREE_LEGGED_SDK_PATH}/lib)
-link_directories($ENV{ALIENGO_SDK_PATH}/lib)
 string(CONCAT LEGGED_SDK_NAME libunitree_legged_sdk_$ENV{UNITREE_PLATFORM}.so)
-set(EXTRA_LIBS ${LEGGED_SDK_NAME} libaliengo_comm.so lcm)
+set(EXTRA_LIBS ${LEGGED_SDK_NAME} lcm)
 
 set(CMAKE_CXX_FLAGS "-O3")
 
@@ -52,7 +50,3 @@ add_dependencies(walk_lcm ${${PEOJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_
 add_executable(lcm_server_3_2 $ENV{UNITREE_LEGGED_SDK_PATH}/examples/lcm_server.cpp)
 target_link_libraries(lcm_server_3_2 ${EXTRA_LIBS} ${catkin_LIBRARIES})
 add_dependencies(lcm_server_3_2 ${${PEOJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
-add_executable(lcm_server_3_1 $ENV{ALIENGO_SDK_PATH}/examples/lcm_server.cpp)
-target_link_libraries(lcm_server_3_1 ${EXTRA_LIBS} ${catkin_LIBRARIES})
-add_dependencies(lcm_server_3_1 ${${PEOJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})

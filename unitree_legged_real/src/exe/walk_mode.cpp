@@ -11,7 +11,6 @@ Use of this source code is governed by the MPL-2.0 license, see LICENSE.
 #include <unitree_legged_msgs/HighCmd.h>
 #include <unitree_legged_msgs/HighState.h>
 #include "unitree_legged_sdk/unitree_legged_sdk.h"
-#include "aliengo_sdk/aliengo_sdk.hpp"
 #include "convert.h"
 
 // using namespace UNITREE_LEGGED_SDK;
@@ -136,23 +135,16 @@ int main(int argc, char *argv[]){
     std::string firmwork;
     ros::param::get("/firmwork", firmwork);
 
-    if(firmwork == "3_1"){
-        aliengo::Control control(aliengo::HIGHLEVEL);
-        aliengo::LCM roslcm;
-        mainHelper<aliengo::HighCmd, aliengo::HighState, aliengo::LCM>(argc, argv, roslcm);
-    }
-    else if(firmwork == "3_2"){
-        std::string robot_name;
-        UNITREE_LEGGED_SDK::LeggedType rname;
-        ros::param::get("/robot_name", robot_name);
-        if(strcasecmp(robot_name.c_str(), "A1") == 0)
-            rname = UNITREE_LEGGED_SDK::LeggedType::A1;
-        else if(strcasecmp(robot_name.c_str(), "Aliengo") == 0)
-            rname = UNITREE_LEGGED_SDK::LeggedType::Aliengo;
 
-        UNITREE_LEGGED_SDK::InitEnvironment();
-        UNITREE_LEGGED_SDK::LCM roslcm(UNITREE_LEGGED_SDK::HIGHLEVEL);
-        mainHelper<UNITREE_LEGGED_SDK::HighCmd, UNITREE_LEGGED_SDK::HighState, UNITREE_LEGGED_SDK::LCM>(argc, argv, roslcm);
-    }
+    std::string robot_name;
+    UNITREE_LEGGED_SDK::LeggedType rname;
+    ros::param::get("/robot_name", robot_name);
+    rname = UNITREE_LEGGED_SDK::LeggedType::A1;
+
+
+    UNITREE_LEGGED_SDK::InitEnvironment();
+    UNITREE_LEGGED_SDK::LCM roslcm(UNITREE_LEGGED_SDK::HIGHLEVEL);
+    mainHelper<UNITREE_LEGGED_SDK::HighCmd, UNITREE_LEGGED_SDK::HighState, UNITREE_LEGGED_SDK::LCM>(argc, argv, roslcm);
+
     
 }
