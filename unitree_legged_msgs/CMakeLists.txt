@@ -19,6 +19,7 @@ add_message_files(
   LowState.msg
   HighCmd.msg
   HighState.msg
+  walk_2s.msg
 )
 
 generate_messages(
