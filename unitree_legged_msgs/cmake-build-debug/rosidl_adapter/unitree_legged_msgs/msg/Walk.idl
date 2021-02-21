@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_legged_msgs/msg/Walk.msg
+// generated code does not contain a copyright notice
+
+#include "unitree_legged_msgs/msg/HighCmd.idl"
+
+module unitree_legged_msgs {
+  module msg {
+    struct Walk {
+      unitree_legged_msgs::msg::HighCmd highcmd;
+
+      int8 time;
+    };
+  };
+};

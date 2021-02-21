@@ -1,0 +1,22 @@
+/usr/bin/ld: cannot find -lunitree_legged_sdk_amd64
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/walk_client.dir/build.make:143: walk_client] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/walk_client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:13[m[K,
+                 from [01m[K/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/walk_operators.cpp:11[m[K:
+[01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/lcm.h:10:10:[m[K [01;31m[Kfatal error: [m[Klcm/lcm-cpp.hpp: No such file or directory
+   10 | #include [01;31m[K<lcm/lcm-cpp.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:13[m[K,
+                 from [01m[K/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/walk_instruction.cpp:12[m[K:
+[01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/lcm.h:10:10:[m[K [01;31m[Kfatal error: [m[Klcm/lcm-cpp.hpp: No such file or directory
+   10 | #include [01;31m[K<lcm/lcm-cpp.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/walk_operator.dir/build.make:63: CMakeFiles/walk_operator.dir/src/walk_operators.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/walk_operator.dir/all] Error 2
+make[2]: *** [CMakeFiles/walk_instruction.dir/build.make:63: CMakeFiles/walk_instruction.dir/src/walk_instruction.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/walk_instruction.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

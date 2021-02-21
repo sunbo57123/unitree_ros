@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/send_msg.dir/src/send_msg.cpp.o  -o send_msg  -lunitree_legged_sdk_amd64 

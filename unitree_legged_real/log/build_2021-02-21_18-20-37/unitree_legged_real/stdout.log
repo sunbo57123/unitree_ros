@@ -1,0 +1,3 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/walk_operator.dir/src/walk_operators.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/walk_instruction.dir/src/walk_instruction.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable walk_client[0m

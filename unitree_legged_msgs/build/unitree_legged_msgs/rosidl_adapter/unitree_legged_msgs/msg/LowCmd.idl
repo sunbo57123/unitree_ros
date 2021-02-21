@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from unitree_legged_msgs/msg/LowCmd.msg
+// generated code does not contain a copyright notice
+
+#include "unitree_legged_msgs/msg/Cartesian.idl"
+#include "unitree_legged_msgs/msg/LED.idl"
+#include "unitree_legged_msgs/msg/MotorCmd.idl"
+
+module unitree_legged_msgs {
+  module msg {
+    typedef unitree_legged_msgs::msg::MotorCmd unitree_legged_msgs__msg__MotorCmd;
+    typedef unitree_legged_msgs__msg__MotorCmd unitree_legged_msgs__msg__MotorCmd__20[20];
+    typedef unitree_legged_msgs::msg::LED unitree_legged_msgs__msg__LED;
+    typedef unitree_legged_msgs__msg__LED unitree_legged_msgs__msg__LED__4[4];
+    typedef int8 int8__40[40];
+    typedef unitree_legged_msgs::msg::Cartesian unitree_legged_msgs__msg__Cartesian;
+    typedef unitree_legged_msgs__msg__Cartesian unitree_legged_msgs__msg__Cartesian__4[4];
+    struct LowCmd {
+      int8 levelflag;
+
+      @verbatim (language="comment", text=
+        " Old version Aliengo does not have")
+      int16 commversion;
+
+      @verbatim (language="comment", text=
+        " Old version Aliengo does not have")
+      int16 robotid;
+
+      @verbatim (language="comment", text=
+        " Old version Aliengo does not have")
+      int32 sn;
+
+      @verbatim (language="comment", text=
+        " Old version Aliengo does not have")
+      int8 bandwidth;
+
+      unitree_legged_msgs__msg__MotorCmd__20 motorcmd;
+
+      unitree_legged_msgs__msg__LED__4 led;
+
+      int8__40 wirelessremote;
+
+      @verbatim (language="comment", text=
+        " Old version Aliengo does not have")
+      int32 reserve;
+
+      int32 crc;
+
+      @verbatim (language="comment", text=
+        " will delete # Old version Aliengo does not have")
+      unitree_legged_msgs__msg__Cartesian__4 ff;
+    };
+  };
+};

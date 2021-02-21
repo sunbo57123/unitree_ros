@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs/rosidl_generator_py/unitree_legged_msgs/libunitree_legged_msgs__python.so" "TARGETS" "unitree_legged_msgs__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,83 @@
+[0.018s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real -DCMAKE_INSTALL_PREFIX=/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real
+[0.080s] -- The C compiler identification is GNU 9.3.0
+[0.142s] -- The CXX compiler identification is GNU 9.3.0
+[0.148s] -- Check for working C compiler: /usr/bin/cc
+[0.226s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.227s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++
+[0.398s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.399s] -- Detecting CXX compiler ABI info
+[0.483s] -- Detecting CXX compiler ABI info - done
+[0.494s] -- Detecting CXX compile features
+[0.494s] -- Detecting CXX compile features - done
+[0.495s] libunitree_legged_sdk_amd64.so
+[0.495s] /home/sun/unitree_legged_sdk/include
+[0.500s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.542s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.775s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.839s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.960s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.990s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.101s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.185s] -- Found tf2: 0.13.5 (/opt/ros/foxy/share/tf2/cmake)
+[1.202s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.271s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.275s] -- Looking for pthread.h
+[1.354s] -- Looking for pthread.h - found
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.435s] -- Looking for pthread_create in pthreads
+[1.499s] -- Looking for pthread_create in pthreads - not found
+[1.500s] -- Looking for pthread_create in pthread
+[1.576s] -- Looking for pthread_create in pthread - found
+[1.577s] -- Found Threads: TRUE  
+[1.732s] -- Found unitree_legged_msgs: 0.0.0 (/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/install/unitree_legged_msgs/share/unitree_legged_msgs/cmake)
+[1.828s] -- Configuring done
+[1.844s] -- Generating done
+[1.846s] -- Build files have been written to: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real
+[1.853s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real -DCMAKE_INSTALL_PREFIX=/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real
+[1.856s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real -- -j6 -l6
+[1.910s] [35m[1mScanning dependencies of target send_msg[0m
+[1.910s] [35m[1mScanning dependencies of target walk_instruction[0m
+[1.911s] [35m[1mScanning dependencies of target walk_operator[0m
+[1.911s] [35m[1mScanning dependencies of target walk_client[0m
+[1.949s] [ 12%] [32mBuilding CXX object CMakeFiles/send_msg.dir/src/send_msg.cpp.o[0m
+[1.953s] [ 25%] [32mBuilding CXX object CMakeFiles/walk_operator.dir/src/walk_operators.cpp.o[0m
+[1.960s] [ 37%] [32mBuilding CXX object CMakeFiles/walk_client.dir/src/walk_client.cpp.o[0m
+[1.963s] [ 50%] [32mBuilding CXX object CMakeFiles/walk_instruction.dir/src/walk_instruction.cpp.o[0m
+[1.973s] [01m[K/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/send_msg.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.973s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.973s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.973s] compilation terminated.
+[1.973s] make[2]: *** [CMakeFiles/send_msg.dir/build.make:63: CMakeFiles/send_msg.dir/src/send_msg.cpp.o] Error 1
+[1.973s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/send_msg.dir/all] Error 2
+[1.973s] make[1]: *** Waiting for unfinished jobs....
+[2.480s] In file included from [01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:13[m[K,
+[2.480s]                  from [01m[K/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/walk_operators.cpp:11[m[K:
+[2.480s] [01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/lcm.h:10:10:[m[K [01;31m[Kfatal error: [m[Klcm/lcm-cpp.hpp: No such file or directory
+[2.480s]    10 | #include [01;31m[K<lcm/lcm-cpp.hpp>[m[K
+[2.480s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.480s] compilation terminated.
+[2.486s] make[2]: *** [CMakeFiles/walk_operator.dir/build.make:63: CMakeFiles/walk_operator.dir/src/walk_operators.cpp.o] Error 1
+[2.486s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/walk_operator.dir/all] Error 2
+[2.491s] In file included from [01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/unitree_legged_sdk.h:13[m[K,
+[2.491s]                  from [01m[K/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/walk_instruction.cpp:12[m[K:
+[2.491s] [01m[K/home/sun/unitree_legged_sdk/include/unitree_legged_sdk/lcm.h:10:10:[m[K [01;31m[Kfatal error: [m[Klcm/lcm-cpp.hpp: No such file or directory
+[2.492s]    10 | #include [01;31m[K<lcm/lcm-cpp.hpp>[m[K
+[2.492s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.492s] compilation terminated.
+[2.495s] make[2]: *** [CMakeFiles/walk_instruction.dir/build.make:63: CMakeFiles/walk_instruction.dir/src/walk_instruction.cpp.o] Error 1
+[2.495s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/walk_instruction.dir/all] Error 2
+[4.425s] [ 62%] [32m[1mLinking CXX executable walk_client[0m
+[4.526s] /usr/bin/ld: cannot find -lunitree_legged_sdk_amd64
+[4.526s] collect2: error: ld returned 1 exit status
+[4.527s] make[2]: *** [CMakeFiles/walk_client.dir/build.make:143: walk_client] Error 1
+[4.528s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/walk_client.dir/all] Error 2
+[4.528s] make: *** [Makefile:141: all] Error 2
+[4.530s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real -- -j6 -l6

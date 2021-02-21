@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found tf2: 0.13.5 (/opt/ros/foxy/share/tf2/cmake)
+-- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found unitree_legged_msgs: 0.0.0 (/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/install/unitree_legged_msgs/share/unitree_legged_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real
+[35m[1mScanning dependencies of target walk_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/walk_client.dir/src/walk_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable walk_client[0m
+[100%] Built target walk_client
+-- Install configuration: ""
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/lib/unitree_legged_real/walk_client
+-- Set runtime path of "/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/lib/unitree_legged_real/walk_client" to ""
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+-- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/package.xml

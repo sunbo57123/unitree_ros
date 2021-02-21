@@ -1,0 +1,21 @@
+[0.021s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs -- -j6 -l6
+[0.053s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.084s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.251s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.469s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.572s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[0.572s]   rosidl_generate_interfaces() the passed dependency 'buildin_interfaces' has
+[0.572s]   not been found before using find_package()
+[0.572s] Call Stack (most recent call first):
+[0.573s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[0.573s] 
+[0.573s] 
+[0.573s] -- Configuring incomplete, errors occurred!
+[0.573s] See also "/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs/CMakeFiles/CMakeOutput.log".
+[0.578s] make: *** [Makefile:2908: cmake_check_build_system] Error 1
+[0.587s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs -- -j6 -l6

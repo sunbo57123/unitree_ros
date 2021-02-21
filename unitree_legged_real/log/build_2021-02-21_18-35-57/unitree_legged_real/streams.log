@@ -1,0 +1,24 @@
+[0.018s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real -- -j6 -l6
+[0.050s] libunitree_legged_sdk_amd64.so
+[0.050s] /home/sun/unitree_legged_sdk/include
+[0.050s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.254s] -- Found geometry_msgs: 2.0.3 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found tf2: 0.13.5 (/opt/ros/foxy/share/tf2/cmake)
+[0.480s] -- Found rclcpp: 2.1.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.513s] -- Found rmw_implementation_cmake: 1.0.1 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.517s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.638s] -- Found unitree_legged_msgs: 0.0.0 (/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/install/unitree_legged_msgs/share/unitree_legged_msgs/cmake)
+[0.711s] -- Configuring done
+[0.719s] -- Generating done
+[0.721s] -- Build files have been written to: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real
+[0.772s] [ 50%] [32m[1mLinking CXX executable walk_client[0m
+[0.845s] /usr/bin/ld: cannot find -lunitree_legged_sdk_amd64
+[0.845s] collect2: error: ld returned 1 exit status
+[0.847s] make[2]: *** [CMakeFiles/walk_client.dir/build.make:143: walk_client] Error 1
+[0.847s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/walk_client.dir/all] Error 2
+[0.847s] make: *** [Makefile:141: all] Error 2
+[0.849s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real -- -j6 -l6

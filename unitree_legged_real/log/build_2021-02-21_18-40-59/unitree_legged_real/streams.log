@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real -- -j6 -l6
+[0.073s] [35m[1mScanning dependencies of target walk_client[0m
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/walk_client.dir/src/walk_client.cpp.o[0m
+[2.408s] [100%] [32m[1mLinking CXX executable walk_client[0m
+[2.557s] [100%] Built target walk_client
+[2.571s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real -- -j6 -l6
+[2.620s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real
+[2.632s] -- Install configuration: ""
+[2.633s] -- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/lib/unitree_legged_real/walk_client
+[2.633s] -- Set runtime path of "/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/lib/unitree_legged_real/walk_client" to ""
+[2.634s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/ament_index/resource_index/package_run_dependencies/unitree_legged_real
+[2.634s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/ament_index/resource_index/parent_prefix_path/unitree_legged_real
+[2.634s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.sh
+[2.635s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/ament_prefix_path.dsv
+[2.635s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/path.sh
+[2.635s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/environment/path.dsv
+[2.635s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.bash
+[2.635s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.sh
+[2.635s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.zsh
+[2.636s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/local_setup.dsv
+[2.636s] -- Installing: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/package.dsv
+[2.636s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/ament_index/resource_index/packages/unitree_legged_real
+[2.637s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.638s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.639s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig.cmake
+[2.639s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/cmake/unitree_legged_realConfig-version.cmake
+[2.639s] -- Up-to-date: /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/install/unitree_legged_real/share/unitree_legged_real/package.xml
+[2.639s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/build/unitree_legged_real

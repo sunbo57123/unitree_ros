@@ -1,0 +1,21 @@
+[0.026s] Invoking command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/install/unitree_legged_msgs
+[0.040s] -- Found ament_cmake: 0.9.6 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.069s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.254s] -- Found std_msgs: 2.0.3 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.487s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.597s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+[0.597s]   rosidl_generate_interfaces() the passed dependency 'buildin_interfaces' has
+[0.597s]   not been found before using find_package()
+[0.597s] Call Stack (most recent call first):
+[0.597s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[0.597s] 
+[0.597s] 
+[0.598s] -- Configuring incomplete, errors occurred!
+[0.598s] See also "/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs/CMakeFiles/CMakeOutput.log".
+[0.605s] Invoked command in '/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/build/unitree_legged_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sun/turtlebot3_ws/install/turtlebot3_teleop:/home/sun/turtlebot3_ws/install/turtlebot3_example:/home/sun/navigation2/src/install/opencv_tests:/home/sun/navigation2/src/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_msgs/install/unitree_legged_msgs

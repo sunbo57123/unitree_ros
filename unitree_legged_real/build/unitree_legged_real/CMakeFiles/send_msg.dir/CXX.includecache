@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/send_msg.cpp
+rclcpp/rclcpp.hpp
+/home/sun/Desktop/unitree_ros2/unitree_ros2/unitree_legged_real/src/rclcpp/rclcpp.hpp
+unitree_legged_msgs/walk.h
+-
+unitree_legged_msgs/HighCmd.h
+-
+
