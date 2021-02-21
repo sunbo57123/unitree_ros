@@ -1,16 +1,16 @@
-int8 levelflag
-int16 commversion              # Old version Aliengo does not have
-int16 robotid                  # Old version Aliengo does not have
-int32 sn                       # Old version Aliengo does not have
-int8 bandwidth                 # Old version Aliengo does not have
+uint8 levelflag
+uint16 commversion              # Old version Aliengo does not have
+uint16 robotid                  # Old version Aliengo does not have
+uint32 sn                       # Old version Aliengo does not have
+uint8 bandwidth                 # Old version Aliengo does not have
 IMU imu
 MotorState[20] motorstate
 int16[4] footforce              # force sensors     # Old version Aliengo is different
 int16[4] footforceest           # force sensors     # Old version Aliengo does not have
-int32 tick                     # reference real-time from motion controller (unit: us)
-int8[40] wirelessremote        # wireless commands
-int32 reserve                  # Old version Aliengo does not have
-int32 crc
+uint32 tick                     # reference real-time from motion controller (unit: us)
+uint8[40] wirelessremote        # wireless commands
+uint32 reserve                  # Old version Aliengo does not have
+uint32 crc
 
 # Old version Aliengo does not have:
 Cartesian[4] eeforceraw

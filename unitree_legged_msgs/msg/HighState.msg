@@ -1,9 +1,9 @@
-int8 levelflag
-int16 commversion                  # Old version Aliengo does not have
-int16 robotid                      # Old version Aliengo does not have
-int32 sn                           # Old version Aliengo does not have
-int8 bandwidth                     # Old version Aliengo does not have
-int8 mode
+uint8 levelflag
+uint16 commversion                  # Old version Aliengo does not have
+uint16 robotid                      # Old version Aliengo does not have
+uint32 sn                           # Old version Aliengo does not have
+uint8 bandwidth                     # Old version Aliengo does not have
+uint8 mode
 IMU imu
 float32 forwardspeed
 float32 sidespeed
@@ -16,10 +16,10 @@ Cartesian[4] footposition2body
 Cartesian[4] footspeed2body
 int16[4] footforce                  # Old version Aliengo is different
 int16[4] footforceest               # Old version Aliengo does not have
-int32 tick               
-int8[40] wirelessremote
-int32 reserve                      # Old version Aliengo does not have
-int32 crc
+uint32 tick               
+uint8[40] wirelessremote
+uint32 reserve                      # Old version Aliengo does not have
+uint32 crc
 
 # Under are not defined in SDK yet. # Old version Aliengo does not have
 Cartesian[4] eeforce            # It's a 1-DOF force in real robot, but 3-DOF is better for visualization.
